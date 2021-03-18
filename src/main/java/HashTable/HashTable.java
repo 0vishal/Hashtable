@@ -27,7 +27,7 @@ public class HashTable < T extends Comparable, V extends Comparable > {
         Node<T,V> node=(Node<T, V>) this.linkedList.(data);
         if(node == null){
             node=new Node(data,value);
-            this.linkedList.insertback();
+            this.linkedList.insertback(node);
         }
 
         else{
